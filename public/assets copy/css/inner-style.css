@@ -1,0 +1,495 @@
+body {
+    color: #000000;
+    font-size:16px;
+    font-family: 'proxima_novaregular';
+  }
+  
+  
+  @font-face {
+      font-family: 'proxima_nova_blblack';
+      src: url('fonts/proxima/proxima_nova_black-webfont.woff2') format('woff2'),
+           url('fonts/proxima/proxima_nova_black-webfont.woff') format('woff'),
+       url('../fonts/proxima/proxima_nova_black-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  @font-face {
+      font-family: 'proxima_nova_ththin';
+      src: url('fonts/proxima/proxima_nova_thin-webfont.woff2') format('woff2'),
+           url('fonts/proxima/proxima_nova_thin-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  @font-face {
+      font-family: 'proxima_novaregular';
+      src: url('fonts/proxima/proximanova-regular-webfont.woff2') format('woff2'),
+           url('fonts/proxima/proximanova-regular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'proxima_nova_rgbold';
+      src: url('fonts/proxima/proxima-nova-bold-webfont.woff2') format('woff2'),
+           url('fonts/proxima/proxima-nova-bold-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  
+  #footer{
+      background: #323232;
+      padding: 50px;
+  }
+  .ftr-link{
+      padding: 0px;
+      margin: 0 0 80px 0;
+      list-style-type: none;
+      text-align: center;
+  }
+  .ftr-link li {
+      padding: 0 12px;
+      margin: 0px;
+      list-style-type: none;
+      display: inline-block;
+      color: #fff;
+      border-right: solid 1px #fff;
+      font-size: 17px;
+      line-height: 15px;
+      text-transform: uppercase;
+  }
+  .ftr-link li a {
+      color: #fff;
+  }
+  .ftr-link li:last-child {
+      border-right: none;
+  }
+  .ftr-h4{
+      color: #f47a27;
+      font-family: 'proxima_nova_rgbold';
+      font-size: 18px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+  }
+  
+  .ftr-h5{
+      color: #fff;
+      font-family: 'proxima_nova_rgbold';
+      font-size: 18px;
+      margin-top: 20px;
+       text-transform: uppercase;
+  }
+  .approved{
+      margin-top: 42px;
+  }
+  .ftr-cnt{
+      padding: 0px;
+      margin: 0px;
+      list-style-type: none;
+  }
+  .ftr-cnt li{
+      padding: 0 0 0 40px;
+      margin: 0 0 10px 0; 
+      list-style-type: none;
+      font-size: 24px;
+      color: #fff;
+      position: relative;
+  }
+  .ftr-cnt li a{
+      color: #fff;
+  }
+  .ftr-cnt li i{
+      position: absolute;
+      left: 0;
+  }
+  #copywrite{
+      background: #272727;
+      padding: 12px 0;
+  }
+  #copywrite p{
+      margin: 0;
+      padding: 0px;
+      color: #fff;
+  }
+  
+  footer.page-footer{
+      display: none
+  }
+  .toll-free {
+      background: #f47a27;
+      border-radius: 50px;
+      display: inline-block;
+      padding: 8px 30px;
+      position: absolute;
+      top: -78px;
+      left: 40%;
+      font-size: 28px;
+      font-weight: bold;
+      color: #fff;
+  }
+  .fixed .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+   .toll-free {
+      left: 30%;
+  }
+  .pkg-detail h3 {
+      font-size: 28px;
+  }
+  .pkg-detail h5 {
+      font-size: 14px;
+  }    
+  .ftr-h4 {
+      font-size: 14px;
+  }    
+  #banner .free-quotes .get-free {
+      font-size: 22px;
+  }    
+  #header .head-cnt ul li {
+      font-size: 20px;
+  }
+  .deal {
+      font-size: 16px;
+  }    
+  #banner .banner-text h1 {
+      font-size: 46px;
+      line-height: 45px;
+  }     
+  #banner .banner-text h4 {
+      font-size: 32px;
+  }  
+  #banner .destination li {
+      font-size: 12px;
+  }  
+  #banner .trusted li {
+      font-size: 17px;
+      line-height: 38px;
+  }  
+  .banner-2 ul li {
+      padding: 0 10px 0 0;
+      margin: 0 6px 0 0;
+  } 
+  .banner-2 .abt-cmpny h6 {
+      font-size: 15px;
+  }
+  .itnry li {
+      width: 18%;
+      font-size: 12px;
+  }
+  .packages h3 {
+      font-size: 18px;
+      min-height: 43px;
+  } 
+  .packages h2 {
+      font-size: 18px;
+  } 
+  .price-tag .price {
+      font-size: 18px;
+  }
+  .btn-detail .btn {
+      font-size: 13px;
+  } 
+  .why-book h4 {
+      font-size: 20px;
+  }
+  .why-book p {
+      font-size: 18px;
+  }
+  .ftr-cnt li {
+      font-size: 20px;
+  }
+  .ftr-link li {
+      margin: 0 0 13px 0;
+      font-size: 12px;
+  }
+  .why-book {
+      padding: 0 20px;
+      height: 80%;
+  }  
+  .bdr-none{
+          border: none !important
+  }  
+  }
+  @media only screen and (max-width: 992px) {
+      .toll-free {
+      left: 23%;
+  }   
+  .pkg-bx {
+      margin-bottom: 20px;
+  }    
+      #header .head-cnt ul li {
+      font-size: 15px;
+  }
+  #header .head-cnt ul li img{
+     width: 19px;     
+  }
+  #header .head-cnt ul li {
+      padding: 0 0 0 26px;
+      margin-bottom: 8px;
+  }
+  #header .head-cnt {
+      margin-top: 33px;
+  }
+  .deal {
+      font-size: 16px;
+      padding: 4px 16px;
+      margin-top: 38px;
+      border: solid 4px #c4c4c4;
+  }
+  #banner .free-quotes .get-free {
+      font-size: 22px;
+          padding: 10px 0;
+  }
+  #banner .free-quotes .get-free-qoute {
+      padding: 20px 10px 10px;
+  }
+  #banner .banner-text h1 {
+      font-size: 32px;
+  }
+  #banner .banner-text h4 {
+      font-size: 27px;
+  }
+  #banner .destination li {
+      font-size: 12px;
+  }   
+  .upto {
+      width: 61px;
+  }
+  .banner-2 ul li {
+      margin: 0 6px 15px 0;
+  }
+  .banner-2 {
+      padding: 20px 0 0 0;
+  }
+  .h1-global {
+      font-size: 35px;
+  }
+  .special-honymoon p {
+      font-size: 13px;
+      line-height: normal;
+  }
+  .packages .special-honymoon {
+      bottom: -20px;
+      left: 10px;
+      font-size: 18px;
+  }
+  .packages .all-free {
+      bottom: 52px;
+      left: -1px;
+      width: 139px;
+  }
+  .packages .tag {
+      width: 75px;
+      top: 10px;
+      right: 0;
+      font-size: 13px;
+  }
+  .packages h2 {
+      font-size: 15px;
+  }
+  .packages h3 {
+      font-size: 15px;
+  }
+  .inclusions h5 {
+      font-size: 16px;
+  }
+  .price-tag .price {
+      font-size: 18px;
+      text-align: center;
+      display: block;
+      margin-bottom: 10px;
+  }
+  .btn-detail {
+      display: block;
+      float: none;
+  }
+  .ftr-cnt li {
+      font-size: 14px;
+      padding: 0 0 0 30px;
+  }  
+  .ftr-cnt li img {
+      width: 20px;
+  }     
+  }
+  @media only screen and (max-width: 767px) {
+      #copywrite p {
+      font-size: 12px;
+  }    
+  #copywrite {
+      margin-bottom: 60px;
+  }    
+  .toll-free {
+      top: -49px;
+      left: 28%;
+      font-size: 18px;
+      padding: 10px 30px;
+  }  
+  #counter-bx figure {
+      width: 57%;
+      margin: 0 auto;
+  }
+  #counter .col-sm-3 .counter-value {
+      font-size: 33px;
+  }
+  #counter-bx .c-text {
+      font-size: 14px;
+  }    
+  #counter-bx .c-text {
+      margin-bottom: 50px;
+  }    
+  .why-us li {
+      width: 32%;
+  }
+  .why-us li:nth-child(4) {
+      width: 32%;
+  }
+      .why-us li:nth-child(5) {
+      width: 32%;
+  }
+  .slick-slide img {
+      width: 100%;
+  }    
+  .banner-2 {
+      padding: 20px 0 20px 0;
+  }    
+  #header .head-cnt ul {
+      text-align: center;
+  }    
+  .logo {
+      text-align: center;
+  }    
+  #banner {
+      background-size: cover;
+      background-position: -607px top;
+  }   
+   .deal {
+      position: absolute;
+      top: -90px;
+  }
+  #header .head-cnt {
+      float: none;
+  }    
+  #header .head-cnt ul li {
+      display: inline-block;
+  }    
+  #header .head-cnt ul li:last-child {
+      margin-left: 10px;
+  }  
+  #header .head-cnt {
+      margin-top: 10px;
+      border-top: solid 1px #d2d2d2;
+      padding-top: 10px;
+  }
+  #banner .col-sm-8, #banner .col-sm-4  {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }    
+  .banner-text
+   {
+      text-align: center;
+   }
+  #banner .free-quotes {
+      margin-top: 35px;
+  }
+  #banner .free-quotes .get-free {
+      font-size: 30px;
+  }
+  #banner .destination li {
+      font-size: 12px;
+      width: 23%;
+      padding: 0 10px 0 0;
+      margin: 0 0 11px 0;
+  }   
+  #banner .banner-text h1 {
+      font-size: 35px;
+  } 
+  .banner-2 ul li {
+      width: 21%;
+  }
+       
+  .why-book {
+      border-right: none;
+      border-bottom: dotted 1px #333;
+      text-align: center;
+      margin: 50px 0;
+  }    
+  .logo img{
+      width: 100px;
+  }
+  .h1-global {
+      font-size: 27px;
+  }
+  .approved {
+      margin-top: 0;
+      margin-bottom: 30px;
+  }
+  .ftr-h4 {
+      margin-bottom: 10px;
+  }
+  #footer {
+      padding: 20px 0 0;
+  }
+  .ftr-link {
+      padding: 0px;
+      margin: 0 0 20px 0;
+  }
+  .ftr-link li {
+      font-size: 13px;
+  }    
+  }
+  @media only screen and (max-width: 568px) {
+      .requirement {
+      font-size: 14px;
+      padding: 6px 15px;
+  }   
+  }
+  @media only screen and (max-width: 480px) {  
+  .toll-free {
+      top: -55px;
+      left: 21%;
+      font-size: 18px;
+      padding: 10px 30px;
+  }
+  }
+  @media only screen and (max-width: 375px) {
+  .deal {
+      position: absolute;
+      font-size: 13px;
+  }
+  #header .head-cnt ul {
+      padding: 0px;
+      margin: 0px;
+      list-style-type: none;
+      text-align: center;
+  }
+  #header .head-cnt ul li {
+      padding: 0 0 0 26px;
+      margin-bottom: 2px;
+  }    
+  .logo img
+   {
+      margin: 0 auto;
+   }
+  }
+  .mail-link {
+      color: #fff;
+  }
+  .mail-link:hover {
+      color: #ececec;
+  }
+  .ptoptha{
+      position: relative;
+      top:121px;
+  }
+  .pfootha{
+      position: relative;
+      top:121px;
+  }
